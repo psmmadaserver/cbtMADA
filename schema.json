@@ -1,0 +1,1916 @@
+[
+  {
+    "table": "cbt_admin",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSekolah",
+        "sqlType": "varchar(250) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTingkat",
+        "sqlType": "varchar(3) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XIp",
+        "sqlType": "varchar(15) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAlamat",
+        "sqlType": "text COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKec",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKab",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XProp",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTelp",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XFax",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XEmail",
+        "sqlType": "varchar(250) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XWeb",
+        "sqlType": "varchar(200) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLogo",
+        "sqlType": "text COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XBanner",
+        "sqlType": "varchar(250) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKepSek",
+        "sqlType": "varchar(100) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAdmin",
+        "sqlType": "varchar(100) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPicAdmin",
+        "sqlType": "varchar(250) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XWarna",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XStatus",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSekolah",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNIPKepsek",
+        "sqlType": "varchar(30) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNIPAdmin",
+        "sqlType": "varchar(30) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLogin",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XH1",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XH3",
+        "sqlType": "varchar(30) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XH2",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XFolderPusat",
+        "sqlType": "tinytext COLLATE latin1_general_ci",
+        "default": "",
+        "comment": "jika folder besmart3 diubah"
+      },
+      {
+        "name": "XLoginUtama",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XeLearning",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_header",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(1)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Header",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "HeaderUjian",
+        "sqlType": "int(1)",
+        "default": "1",
+        "comment": ""
+      },
+      {
+        "name": "XNilaiKelas",
+        "sqlType": "varchar(20)",
+        "default": "0",
+        "comment": ""
+      },
+      {
+        "name": "HakAkses",
+        "sqlType": "varchar(20)",
+        "default": "0",
+        "comment": ""
+      },
+      {
+        "name": "LoginPanel",
+        "sqlType": "varchar(10)",
+        "default": "0",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_jawaban",
+    "columns": [
+      {
+        "name": "Urutan",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNomerSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeUjian",
+        "sqlType": "varchar(5) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeJurusan",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSoal",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJenisSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTokenUjian",
+        "sqlType": "varchar(5) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XA",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XB",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XC",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XD",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XE",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJawaban",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTemp",
+        "sqlType": "text COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJawabanEsai",
+        "sqlType": "text COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeJawab",
+        "sqlType": "varchar(2) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNilaiJawab",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNilai",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNilaiEsai",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XRagu",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XMulai",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPutar",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XMulaiV",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPutarV",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTglJawab",
+        "sqlType": "date",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJamJawab",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKunciJawaban",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XUserJawab",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Campur",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSetId",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSemester",
+        "sqlType": "int(1)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XUserPeriksa",
+        "sqlType": "varchar(15) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTglPeriksa",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJamPeriksa",
+        "sqlType": "varchar(8) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaKelas",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_kelas",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeLevel",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaKelas",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeJurusan",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XStatusKelas",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSekolah",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_mapel",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaMapel",
+        "sqlType": "varchar(30) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPersenUH",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPersenUTS",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPersenUAS",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKKM",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XMapelAgama",
+        "sqlType": "char(1) COLLATE latin1_general_ci",
+        "default": "N",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSekolah",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_nilai",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNomerUjian",
+        "sqlType": "varchar(20)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNIK",
+        "sqlType": "varchar(10) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeUjian",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTokenUjian",
+        "sqlType": "varchar(5) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTgl",
+        "sqlType": "date",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJumSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XBenar",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSalah",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNilai",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPersenPil",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPersenEsai",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XEsai",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTotalNilai",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSoal",
+        "sqlType": "varchar(50) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSetId",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSemester",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaKelas",
+        "sqlType": "varchar(20)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPilGanda",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_paketsoal",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(10) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLevel",
+        "sqlType": "varchar(5) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeJurusan",
+        "sqlType": "varchar(10) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(10) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeLevel",
+        "sqlType": "varchar(10) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSesi",
+        "sqlType": "varchar(11) COLLATE utf8mb4_bin",
+        "default": "1",
+        "comment": ""
+      },
+      {
+        "name": "XJenisSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPilGanda",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XEsai",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPersenPil",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPersenEsai",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSoal",
+        "sqlType": "varchar(50) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJumPilihan",
+        "sqlType": "int(11)",
+        "default": "5",
+        "comment": ""
+      },
+      {
+        "name": "XJumSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "JumUjian",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAcakSoal",
+        "sqlType": "char(1) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "Y",
+        "comment": ""
+      },
+      {
+        "name": "XGuru",
+        "sqlType": "varchar(30) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSetId",
+        "sqlType": "varchar(10) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XStatusSoal",
+        "sqlType": "varchar(1) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "N",
+        "comment": ""
+      },
+      {
+        "name": "XTglBuat",
+        "sqlType": "date",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSekolah",
+        "sqlType": "varchar(50) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPaketSoal",
+        "sqlType": "text CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSemua",
+        "sqlType": "varchar(10) COLLATE utf8mb4_bin",
+        "default": "T",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_server",
+    "columns": [
+      {
+        "name": "id",
+        "sqlType": "int(3)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XServer",
+        "sqlType": "varchar(15)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_setid",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeAY",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaAY",
+        "sqlType": "varchar(100)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_sinc",
+    "columns": [
+      {
+        "name": "id",
+        "sqlType": "int(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XServerId",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTanggal",
+        "sqlType": "datetime",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_siswa",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNomerUjian",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNIK",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeJurusan",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaSiswa",
+        "sqlType": "varchar(255) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeLevel",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJenisKelamin",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPassword",
+        "sqlType": "varchar(150) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XFoto",
+        "sqlType": "varchar(250) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAgama",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSetId",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSesi",
+        "sqlType": "varchar(11) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XRuang",
+        "sqlType": "varchar(15) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSekolah",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPilihan",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaKelas",
+        "sqlType": "varchar(40) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_siswa_ujian",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNomerUjian",
+        "sqlType": "varchar(15) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNISN",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSoal",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPilGanda",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XEsai",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJumSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTglUjian",
+        "sqlType": "timestamp",
+        "default": "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP",
+        "comment": ""
+      },
+      {
+        "name": "XJamUjian",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XMulaiUjian",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLastUpdate",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSisaWaktu",
+        "sqlType": "varchar(8) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLamaUjian",
+        "sqlType": "varchar(8) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTargetUjian",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTokenUjian",
+        "sqlType": "varchar(60) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSelesaiUjian",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSetId",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeUjian",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSesi",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XStatusUjian",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSekolah",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGetIP",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaKelas",
+        "sqlType": "varchar(20) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_soal",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(10) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSoal",
+        "sqlType": "varchar(50) CHARACTER SET latin1 COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJenisSoal",
+        "sqlType": "int(11)",
+        "default": "1",
+        "comment": ""
+      },
+      {
+        "name": "XNomerSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XRagu",
+        "sqlType": "varchar(1) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTanya",
+        "sqlType": "text COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAudioTanya",
+        "sqlType": "varchar(255) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XVideoTanya",
+        "sqlType": "mediumtext COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGambarTanya",
+        "sqlType": "mediumtext COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJawab1",
+        "sqlType": "text COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJawab2",
+        "sqlType": "text COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJawab3",
+        "sqlType": "text COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJawab4",
+        "sqlType": "text COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJawab5",
+        "sqlType": "text COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGambarJawab1",
+        "sqlType": "varchar(255) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGambarJawab2",
+        "sqlType": "varchar(255) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGambarJawab3",
+        "sqlType": "varchar(255) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGambarJawab4",
+        "sqlType": "varchar(255) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGambarJawab5",
+        "sqlType": "varchar(255) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKunciJawaban",
+        "sqlType": "varchar(1) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKategori",
+        "sqlType": "int(11)",
+        "default": "1",
+        "comment": ""
+      },
+      {
+        "name": "XAcakOpsi",
+        "sqlType": "varchar(1) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAgama",
+        "sqlType": "varchar(20) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLevel",
+        "sqlType": "varchar(10) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(50) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSkolah",
+        "sqlType": "varchar(50) COLLATE utf8mb4_unicode_ci",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_tes",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeUjian",
+        "sqlType": "varchar(5)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaUjian",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_tugas",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLevel",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNIK",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeJurusan",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSemester",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSetId",
+        "sqlType": "varchar(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNilaiTugas",
+        "sqlType": "float",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_ujian",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeUjian",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSemester",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeLevel",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeKelas",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeJurusan",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeMapel",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSoal",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJumPilihan",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJumSoal",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPilGanda",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XEsai",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAcakSoal",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTglUjian",
+        "sqlType": "date",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XJamUjian",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XBatasMasuk",
+        "sqlType": "time",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSisaWaktu",
+        "sqlType": "varchar(8) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLamaUjian",
+        "sqlType": "varchar(8) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XIdleTime",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTokenUjian",
+        "sqlType": "varchar(60) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XGuru",
+        "sqlType": "varchar(30) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XTglBuat",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSetId",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XStatusUjian",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XProktor",
+        "sqlType": "varchar(200) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNIPProktor",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPengawas",
+        "sqlType": "varchar(200) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNIPPengawas",
+        "sqlType": "varchar(30) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XCatatan",
+        "sqlType": "text COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSesi",
+        "sqlType": "varchar(11) COLLATE latin1_general_ci",
+        "default": "1",
+        "comment": ""
+      },
+      {
+        "name": "XTampil",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XKodeSekolah",
+        "sqlType": "varchar(50) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XStatusToken",
+        "sqlType": "varchar(1) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XLevel",
+        "sqlType": "varchar(10) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPdf",
+        "sqlType": "int(1)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XFilePdf",
+        "sqlType": "varchar(200) COLLATE latin1_general_ci",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XListening",
+        "sqlType": "int(1)",
+        "default": "1",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_upload_file",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XNamaFile",
+        "sqlType": "varchar(250)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XFolder",
+        "sqlType": "varchar(250)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XCreated",
+        "sqlType": "varchar(100)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_user",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Username",
+        "sqlType": "varchar(20)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Password",
+        "sqlType": "varchar(250)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "NIP",
+        "sqlType": "varchar(30)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Nama",
+        "sqlType": "varchar(200)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Alamat",
+        "sqlType": "text",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "HP",
+        "sqlType": "varchar(20)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Faxs",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "Email",
+        "sqlType": "varchar(100)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "login",
+        "sqlType": "int(1)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPoto",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "cbt_zona",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(10)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XZona",
+        "sqlType": "varchar(20)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "inf_lokasi",
+    "columns": [
+      {
+        "name": "lokasi_ID",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "lokasi_kode",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "lokasi_nama",
+        "sqlType": "varchar(100)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "lokasi_propinsi",
+        "sqlType": "int(2)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "lokasi_kabupatenkota",
+        "sqlType": "int(2) UNSIGNED ZEROFILL",
+        "default": "NULL",
+        "comment": ""
+      },
+      {
+        "name": "lokasi_kecamatan",
+        "sqlType": "int(2) UNSIGNED ZEROFILL",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "lokasi_kelurahan",
+        "sqlType": "int(4) UNSIGNED ZEROFILL",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "server_pusat",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XServerId",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSekolah",
+        "sqlType": "varchar(200)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XIPSekolah",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XPass",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XDbName",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XUsername",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  },
+  {
+    "table": "server_sekolah",
+    "columns": [
+      {
+        "name": "Urut",
+        "sqlType": "int(11)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XServerId",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XSekolah",
+        "sqlType": "varchar(200)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XIPSekolah",
+        "sqlType": "varchar(50)",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XAlamatSek",
+        "sqlType": "text",
+        "default": "",
+        "comment": ""
+      },
+      {
+        "name": "XStatusSinc",
+        "sqlType": "int(11)",
+        "default": "0",
+        "comment": ""
+      }
+    ],
+    "primaryKey": []
+  }
+]
